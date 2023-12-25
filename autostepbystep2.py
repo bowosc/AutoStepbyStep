@@ -10,7 +10,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 
 # gpt setup stuff
-openai.api_key = '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'
+openai.api_key = 'NICETRY'
 messages = [ {"role": "system", "content":  
               "You are a intelligent assistant."} ] 
 # the prompt machine, actually asks the questions
@@ -38,7 +38,7 @@ driver.get("https://www.codestepbystep.com/login")
 element = driver.find_element(By.XPATH, '/html/body/div[3]/div[2]/div[1]/div/form/div/div[1]/input')
 element.send_keys("bowiee")
 element = driver.find_element(By.XPATH, '/html/body/div[3]/div[2]/div[1]/div/form/div/div[2]/input')
-element.send_keys("3.141592")
+element.send_keys("NICETRY")
 element = driver.find_element(By.XPATH, '//*[@id="submitbutton"]')
 element.click()
 driver.get("https://www.codestepbystep.com/problem/view/java/parameters/getFirstDigit")
